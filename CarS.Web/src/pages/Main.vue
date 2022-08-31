@@ -1,9 +1,16 @@
 <template>
   <div>
     <h1>Main page</h1>
+    <my-calendar />
   </div>
 </template>
 
 <script>
-export default {};
+import MyCalendar from '@/components/MyCalendar.vue'
+
+export default {
+  components:{
+    MyCalendar,
+  }
+};
 </script>
